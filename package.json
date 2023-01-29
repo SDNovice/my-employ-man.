@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "This is for employer cms application needed propmts and databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDNovice/my-employ-man..git"
+  },
+  "keywords": [
+    "employ-man"
+  ],
+  "author": "Sean Yanez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDNovice/my-employ-man./issues"
+  },
+  "homepage": "https://github.com/SDNovice/my-employ-man.#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.0.1"
+  }
+}
