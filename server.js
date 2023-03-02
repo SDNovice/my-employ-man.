@@ -70,7 +70,6 @@ function handleDepartment(i){
         });
     } else if (i === 6) {
         inquirer.prompt(newDepartment).then((response) => {
-            db.query(`ALTER TABLE departments MODIFY id INT NOT NULL AUTO_INCREMENT;`);
             db.query(`INSERT INTO departments(name) VALUES (?)`, response.deptName);
         })
     }
@@ -89,4 +88,3 @@ function handleDepartment(i){
 //     const table = cTable.getTable(results);
 //     console.log(table);
 // });
-
